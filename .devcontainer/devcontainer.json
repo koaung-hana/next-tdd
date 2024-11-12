@@ -1,5 +1,0 @@
-{
-    "name": "Next TDD",
-    "postCreateCommand": "npx playwright install"
-  }
-  
