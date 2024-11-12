@@ -1,6 +1,6 @@
 # Project Name
 
-Welcome to the **Project Name** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. This guide will walk you through setting up the development environment in GitHub Codespaces.
+Welcome to the **Next TDD** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. This guide will walk you through setting up the development environment in GitHub Codespaces.
 
 ---
 
