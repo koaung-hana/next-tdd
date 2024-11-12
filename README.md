@@ -1,35 +1,50 @@
-# Next.js + Jest
+# Project Name
 
-This example shows how to configure Jest to work with Next.js.
+Welcome to the **Project Name** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. This guide will walk you through setting up the development environment in GitHub Codespaces.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+---
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+## Getting Started
 
-## Deploy your own
+### Prerequisites
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+To work on this project in a local environment, you’ll need to have Node.js and npm installed. However, **GitHub Codespaces** provides a ready-to-go environment that simplifies setup.
 
-## How to Use
+---
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+## How to Start the Codespace
 
-In your terminal, run the following command:
+1. **Open the Repository in GitHub**  
+   Go to the GitHub repository page for this project.
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
+2. **Start a New Codespace**  
+   - Click the **Code** button on the repository’s main page.
+   - Select **Codespaces** from the dropdown menu.
+   - Click **New codespace** to create a new development environment.
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+3. **Initialize the Environment**  
+   - Once the Codespace is ready, dependencies should automatically install if you have a `.devcontainer` configuration in the repository.
+   - If not, you may need to run:
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
+     ```bash
+     npm install
+     ```
 
-## Running Tests
+4. **Run the Development Server**  
+   Start the Next.js development server with:
+
+   ```bash
+   npm run dev
+
+
+## Running Jest Tests
 
 ```bash
 npm test
+```
+
+## Running Playwright's screenshot Tests
+
+```bash
+npm run test:screenshot
 ```

@@ -13,4 +13,11 @@ export default defineConfig({
     url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
   },  
+  use: {
+    // Ensure tests run in headless mode (this is the default setting, but it's good to specify it explicitly)
+    headless: true,  // Run tests in headless mode
+    // Set up other context configurations as necessary (e.g., for viewport, etc.)
+    viewport: { width: 1280, height: 720 },
+    // You can add more settings like device emulation if needed
+  },
 });
