@@ -1,4 +1,15 @@
-# Project Name
+## ⚠️ Usage Notice
+
+**This repository is intended solely for internal use in technical assessments.**
+
+Forking, cloning, or redistributing this repository — or any solutions derived from it — is **strictly prohibited**.
+
+If you are an interview candidate, please do not share your solutions publicly or privately. Doing so may compromise the fairness of the evaluation process and violate our confidentiality expectations.
+
+If you are not an authorized participant or evaluator, please refrain from using or replicating this repository in any form.
+
+
+# TDD assessment with Next.js
 
 Welcome to the **Next TDD** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. This guide will walk you through setting up the development environment in GitHub Codespaces.
 
