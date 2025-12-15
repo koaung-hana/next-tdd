@@ -11,11 +11,13 @@ If you are not an authorized participant or evaluator, please refrain from using
 
 # TDD assessment with Next.js
 
-Welcome to the **Next TDD** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. This guide will walk you through setting up the development environment in GitHub Codespaces.
+Welcome to the **Next TDD** repository! This project is built with Next.js, and it includes Jest for unit testing and Playwright for screenshot testing. The candidate must resolve all 7 failed cases including 1 snapshot test and 1 screenshot test.
 
 ---
 
 ## Getting Started
+
+This guide will walk you through setting up the development environment in GitHub Codespaces.
 
 ### Prerequisites
 
