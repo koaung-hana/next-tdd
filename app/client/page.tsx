@@ -1,5 +1,5 @@
 'use client'
 
 export default function ClientComponent() {
-  return <h1>Client Component</h1>
+  return <h1>Client's Component</h1>
 }

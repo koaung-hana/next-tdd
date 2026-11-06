@@ -9,6 +9,12 @@
 # testing
 /coverage
 
+# playwright test artifacts (baselines in *-snapshots/ are kept)
+test-results/
+playwright-report/
+blob-report/
+.cache/
+
 # next.js
 /.next/
 /out/
